@@ -16,7 +16,7 @@ A **unit test** is a scripted code-level test, written in Python to verify a sma
 -  **Quality of Code** - Unit testing improves the quality of the code. It identifies every defect that may have come up before code is sent further for integration testing.
 
 
-# [`pytest`]("https://docs.pytest.org/en/6.2.x/index.html")  — Pytest framework
+# [`pytest`](https://docs.pytest.org/en/6.2.x/index.html)  — Pytest framework
 
 The `pytest` framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 
@@ -43,7 +43,7 @@ Most functional tests follow the Arrange-Act-Assert model:
 -   **Plugins**  for integrating with other frameworks and testing tools
 
 
-# [`mock`]("https://pypi.org/project/mock/")  — Mock library
+# [`mock`](https://pypi.org/project/mock/)  — Mock library
 
 When you’re writing robust code, tests are essential for verifying that your application logic is correct, reliable, and efficient. However, the value of your tests depends on how well they demonstrate these criteria. Obstacles such as complex logic and unpredictable dependencies make writing valuable tests difficult. The Python mock object library, `unittest.mock`, can help you overcome these obstacles.
 
@@ -60,7 +60,7 @@ The library also provides a function, called `patch()`, which replaces the real 
 
 
 
-# [`doctest`]("https://docs.python.org/3/library/doctest.html")  — Docktest library
+# [`doctest`](https://docs.python.org/3/library/doctest.html)  — Docktest library
 
 
 The  [`doctest`](https://docs.python.org/3/library/doctest.html#module-doctest "doctest: Test pieces of code within docstrings.")  module searches for pieces of text that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
