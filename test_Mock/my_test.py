@@ -1,7 +1,6 @@
-import mock
-import unittest
+
 import requests
-from requests.exceptions import HTTPError
+
 
 def get_data():
     return 'data'
