@@ -1,7 +1,6 @@
 from unittest import mock
 import unittest
-import requests
-from requests import status_codes
+
 from .my_test import call_twitter,get_ip
 
 class TestApi(unittest.TestCase):
